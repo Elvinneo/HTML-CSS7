@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27);
+
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menyu {
+    margin-left: 250px;
+}
+
+.menyu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(23, 23, 126);
+}
+
+.sag a {
+    color: white;
+}
+
+.sag {
+    width: 120px;
+    height: 33px;
+    background-color: rgb(228, 191, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+/* #btn1::before {
+    content: "";
+    width: 140px;
+    height: 40px;
+    background-color: rgb(223, 212, 14);
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: 0.6s;
+}
+
+#btn1:hover {
+    
+    color: rgb(255, 255, 255);
+
+}
+
+#btn1:hover::before {
+    top: 0;
+    transition-timing-function: cubic-bezier(.1, 1.66, .55, .84);
+
+} */
+
+h3 {
+    font-size: 50px;
+    color: rgb(28, 28, 92);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+.basliq {
+
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.basliq h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: rgb(26, 27, 94);
+    width: 35%;
+    text-align: center;
+}
+
+.basliq2 {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#btn1 {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(36, 36, 85);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+
+.back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./Media/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+}
+
+.last {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#slider {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 70%;
+    left: -5%;
+    z-index: 1;
+}
+
+#slider:hover {
+    transform: scale(1.2);
+}
+
+#slider1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 70%;
+    right: -5%;
+    z-index: 1;
+
+}
+
+#slider1:hover {
+    transform: scale(1.2);
+}
+
+#car {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: none;
+    animation-iteration-count: infinite
+}
+
+@keyframes example {
+    0% {
+        left: 25%;
+    }
+
+    50% {
+        left: 35%;
+    }
+
+    100% {
+        left: 25%;
+    }
+}
+
+.sekil {
+    width: 280px;
+    height: 220px;
+}
+
+.kart {
+    margin: 0px 5px 150px;
+    border-radius: 8px;
+    width: 280px;
+    height: 250px;
+
+
+}
+
+.kart :hover {
+    transform: scale(1.01);
+}
+
+
+.alt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.country {
+    font-size: 18px;
+    color: rgb(24, 24, 87);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.price {
+    font-size: 20px;
+    color: rgb(61, 61, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 14px;
+    color: rgb(8, 8, 122);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
